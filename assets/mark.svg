@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HNCMA placeholder mark">
+  <!-- Placeholder mark drawn for this draft. Replace with the association's own logo. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#12202e"/>
+      <stop offset="1" stop-color="#2a4157"/>
+    </linearGradient>
+    <radialGradient id="f" cx="0.5" cy="0.7" r="0.6">
+      <stop offset="0" stop-color="#f6c453"/>
+      <stop offset="0.55" stop-color="#e2672a"/>
+      <stop offset="1" stop-color="#b8361a"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <path d="M32 9c5 7 9 11 9 18a9 9 0 0 1-18 0c0-4 2-7 4-9 0 3 1 5 3 6-1-6 0-10 2-15z" fill="url(#f)"/>
+  <rect x="31" y="30" width="2" height="27" rx="1" fill="#e9e4da"/>
+  <circle cx="32" cy="30" r="2.4" fill="#e9e4da"/>
+</svg>
