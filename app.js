@@ -8,81 +8,83 @@
 
   const T = {
     draftBar: {
-      en: 'Draft for review — not a published website. Items marked <span class="tbc">TBC</span> are awaiting confirmation.',
-      zh: '审阅草稿——网站尚未发布。标有 <span class="tbc">待确认</span> 的内容需进一步确认。'
+      en: 'Draft for review (version 2) — not a published website. Items marked <span class="tbc">TBC</span> are awaiting confirmation.',
+      zh: '审阅草稿（第二版）——网站尚未发布。标有 <span class="tbc">待确认</span> 的内容需进一步确认。'
     },
-    brandSub: { en: 'Fire Needle Professional Association · Melbourne', zh: '火针专业学会 · 墨尔本' },
+    brandSub: { en: 'Hot Needle Chinese Medicine Association', zh: '火针协会 · 墨尔本' },
     menu: { en: 'Menu', zh: '菜单' },
-    joinCta: { en: 'Membership', zh: '入会' },
+    joinCta: { en: 'Contact us', zh: '联系我们' },
     navHome: { en: 'Home', zh: '首页' },
     navAbout: { en: 'About', zh: '关于学会' },
-    navFire: { en: 'Fire needle therapy', zh: '火针介绍' },
-    navTraining: { en: 'Training & exchange', zh: '培训交流' },
+    navFire: { en: 'Hot needle therapy', zh: '火针介绍' },
+    navTraining: { en: 'Training', zh: '火针培训' },
     navMembership: { en: 'Membership', zh: '会员' },
     navContact: { en: 'Contact', zh: '联系我们' },
-    tileFire: { en: 'What is fire needle therapy?', zh: '什么是火针疗法' },
+    tileFire: { en: 'What is hot needle therapy?', zh: '什么是火针疗法' },
 
     heroEyebrow: { en: 'Melbourne, Australia', zh: '澳大利亚 · 墨尔本' },
-    heroTitle: { en: 'Advancing the practice of fire needle therapy', zh: '传承与发展火针疗法' },
+    heroTitle: { en: 'Teaching and sharing hot needle therapy', zh: '传授与交流火针技术' },
     heroLede: {
-      en: 'HNCMA is a professional association being established in Melbourne for practitioners of fire needle therapy, with a focus on education, technical exchange and safe, ethical practice.',
-      zh: 'HNCMA 是在墨尔本筹建中的火针专业学会，面向从事火针疗法的专业人员，专注于专业教育、技术交流，以及安全、规范的执业。'
+      en: 'The Hot Needle Chinese Medicine Association (HNCMA) is a small incorporated association in Melbourne. We introduce hot needle therapy to practitioners and train them in the technique, with an emphasis on safe, ethical practice.',
+      zh: '火针协会（Hot Needle Chinese Medicine Association，HNCMA）是在墨尔本注册的小型协会，向从业者介绍火针疗法并传授火针技术，重视安全、规范的执业。'
     },
     heroCta1: { en: 'About the association', zh: '了解学会' },
-    heroCta2: { en: 'What is fire needle therapy?', zh: '认识火针' },
+    heroCta2: { en: 'What is hot needle therapy?', zh: '认识火针' },
 
-    introTitle: { en: 'A professional home for fire needle practitioners', zh: '火针从业者的专业平台' },
+    introTitle: { en: 'A small association with one focus', zh: '规模不大，专注火针' },
     introBody: {
-      en: 'Fire needle therapy (<i>huǒ zhēn</i>) is a traditional acupuncture technique in which a specially made needle is heated before it is applied. HNCMA aims to bring practitioners together to share technique, develop training and uphold professional standards.',
-      zh: '火针是一种传统针刺技法：将特制针具烧热后施针。HNCMA 希望把从业者联系在一起，交流技术、发展培训，并共同维护专业标准。'
+      en: 'Hot needle therapy, also called fire needle therapy (<i>huǒ zhēn</i>), is a traditional acupuncture technique in which a specially made needle is heated before it is applied. HNCMA brings together a small group of practitioners to learn the technique, share experience and uphold professional standards.',
+      zh: '火针是一种传统针刺技法：将特制针具烧热后施针。HNCMA 把一小群从业者联系在一起，学习火针技术、交流经验，并共同维护专业标准。'
     },
     introNote: {
-      en: 'Registration status of the association: ' + TBC_EN(),
-      zh: '学会注册状态：' + TBC_ZH()
+      en: 'Incorporated association, Victoria · Reg. No. A0128303C, incorporated 6 January 2026.',
+      zh: '维多利亚州注册社团法人 · 注册号 A0128303C，2026 年 1 月 6 日成立。'
     },
     exploreTitle: { en: 'Explore HNCMA', zh: '走进学会' },
-    pillarsEyebrow: { en: 'Proposed focus areas ' + TBC_EN(), zh: '拟定工作方向 ' + TBC_ZH() },
-    p1t: { en: 'Education', zh: '专业教育' },
-    p1b: { en: 'Training in fire needle technique for registered health professionals.', zh: '为注册卫生专业人员提供火针技术培训。' },
+    pillarsEyebrow: { en: 'What we do', zh: '我们做什么' },
+    p1t: { en: 'Training', zh: '技术培训' },
+    p1b: { en: 'Hands-on training in hot needle technique for registered health professionals.', zh: '为注册卫生专业人员提供火针技术实操培训。' },
     p2t: { en: 'Exchange', zh: '学术交流' },
-    p2b: { en: 'Academic exchange on TCM and fire needle therapy, in Australia and internationally.', zh: '在澳洲及国际范围开展中医与火针学术交流。' },
+    p2b: { en: 'Talks and discussion on Chinese medicine and hot needle therapy.', zh: '围绕中医与火针开展讲座和讨论。' },
     p3t: { en: 'Professional community', zh: '专业社群' },
     p3b: { en: 'A network where practitioners can share experience and discuss practice with peers.', zh: '让从业者分享经验、与同行切磋的专业网络。' },
     joinTitle: { en: 'Interested in joining?', zh: '有意加入？' },
     joinBody: {
-      en: 'Membership is intended for registered TCM practitioners, acupuncturists and other registered health professionals. Details are still being finalised.',
-      zh: '会员面向注册中医师、针灸师及其他注册卫生专业人员。具体细则仍在确定中。'
+      en: 'Membership is for registered Chinese medicine practitioners, acupuncturists and other registered health professionals who want to learn and practise hot needle therapy.',
+      zh: '会员面向希望学习和运用火针的注册中医师、针灸师及其他注册卫生专业人员。'
     },
     joinCta2: { en: 'View membership', zh: '查看会员信息' },
 
     aboutTitle: { en: 'About HNCMA', zh: '关于 HNCMA' },
     aboutLede: {
-      en: 'HNCMA is an academic and professional association focused on fire needle therapy in traditional Chinese medicine (TCM). Its purpose is to promote and share fire needle technique and to provide professional training for TCM practitioners, acupuncturists and other registered health professionals.',
-      zh: 'HNCMA 是以中医火针为核心的学术与专业学会，宗旨是推广与交流火针技术，并为中医师、针灸师及其他注册卫生专业人员提供专业培训。'
+      en: 'HNCMA is an incorporated association in Victoria focused on hot needle (fire needle) therapy in traditional Chinese medicine. Its purpose is to introduce and share hot needle technique and to train Chinese medicine practitioners, acupuncturists and other registered health professionals. It is deliberately small: a working group of practitioners rather than a large membership body.',
+      zh: 'HNCMA 是在维多利亚州注册、以中医火针为核心的协会，宗旨是介绍与交流火针技术，并为中医师、针灸师及其他注册卫生专业人员提供培训。协会规模不大，是一群从业者的交流与学习团体，而不是大型会员组织。'
     },
     factsTitle: { en: 'At a glance', zh: '基本信息' },
     fBasedK: { en: 'Based in', zh: '所在地' },
     fBasedV: { en: 'Melbourne, Victoria, Australia', zh: '澳大利亚维多利亚州墨尔本' },
     fNameK: { en: 'Full name', zh: '正式名称' },
-    fNameV: { en: TBC_EN('full name of HNCMA'), zh: TBC_ZH('学会中英文全称') },
+    fNameV: { en: 'Hot Needle Chinese Medicine Association Inc.', zh: 'Hot Needle Chinese Medicine Association Inc. ' + TBC_ZH('中文正式名称') },
     fStatusK: { en: 'Legal status', zh: '法律性质' },
-    fStatusV: { en: TBC_EN('registration in Victoria'), zh: TBC_ZH('维州注册情况') },
+    fStatusV: { en: 'Incorporated association under the <i>Associations Incorporation Reform Act 2012</i> (Vic). Registration No. A0128303C, incorporated 6 January 2026.', zh: '依据维多利亚州《2012 年社团法人改革法》注册的社团法人，注册号 A0128303C，2026 年 1 月 6 日成立。' },
     fPeopleK: { en: 'Leadership', zh: '负责人 / 理事会' },
-    fPeopleV: { en: TBC_EN('names, roles and registrations'), zh: TBC_ZH('姓名、职务及注册资格') },
+    fPeopleV: { en: 'President · Vice-President · Secretary and Treasurer ' + TBC_EN('names and registrations'), zh: '会长 · 副会长 · 秘书兼财务 ' + TBC_ZH('姓名及注册资格') },
     fWhoK: { en: 'For', zh: '面向' },
     fWhoV: {
-      en: 'TCM practitioners, acupuncturists and other registered health professionals',
+      en: 'Chinese medicine practitioners, acupuncturists and other registered health professionals',
       zh: '中医师、针灸师及其他注册卫生专业人员'
     },
+    fAbnK: { en: 'ABN', zh: 'ABN' },
+    fAbnV: { en: TBC_EN('if registered'), zh: TBC_ZH('如已申请') },
     futureTitle: { en: 'Looking ahead', zh: '未来设想' },
     futureBody: {
-      en: 'The founders have discussed future plans, including a publication on fire needle therapy, expanded training and collaboration with other professional bodies. These are aspirations rather than current services, and will be announced here only once confirmed.',
-      zh: '学会发起人曾提出若干未来设想，包括出版火针专著、扩大培训规模，以及与其他专业团体合作。以上均为设想，并非现有服务，确定后才会在此公布。'
+      en: 'HNCMA is registered in Victoria. As the association grows, the founders hope to build a national body, publish a book on the clinical use of hot needle therapy and expand training. These are plans rather than current services, and will be announced here only once confirmed.',
+      zh: 'HNCMA 目前在维多利亚州注册。随着协会逐步完善，发起人希望日后成立全国性的协会、出版火针临床应用专著并扩大培训。以上均为计划，并非现有服务，确定后才会在此公布。'
     },
 
-    fireTitle: { en: 'What is fire needle therapy?', zh: '什么是火针疗法？' },
+    fireTitle: { en: 'What is hot needle therapy?', zh: '什么是火针疗法？' },
     fireLede: {
-      en: 'Fire needle therapy uses specially made needles of varying thickness. The needle tip is heated over a flame until red-hot, then quickly inserted at acupuncture points, <i>Ashi</i> (tender) points or affected areas of the body.',
+      en: 'Hot needle therapy, also known as fire needle therapy, uses specially made needles of varying thickness. The needle tip is heated over a flame until red-hot, then quickly inserted at acupuncture points, <i>Ashi</i> (tender) points or affected areas of the body.',
       zh: '火针疗法使用粗细不同的特制针具，将针尖在火焰上烧至通红后，迅速刺入腧穴、阿是穴或病变部位。'
     },
     histTitle: { en: 'Origins and history', zh: '起源与历史' },
@@ -123,33 +125,33 @@
 
     trainTitle: { en: 'Training and exchange', zh: '培训与交流' },
     trainLede: {
-      en: 'HNCMA plans to offer professional training in fire needle technique and to host academic exchange. Programs, dates and fees have not yet been set.',
-      zh: 'HNCMA 计划开展火针技术专业培训并举办学术交流。课程、日期与费用尚未确定。'
+      en: 'Training in hot needle technique is the main activity of HNCMA. Dates, venues and fees are sent directly to registered practitioners who register their interest.',
+      zh: '火针技术培训是协会的主要工作。培训时间、地点与费用另行通知登记意向的注册从业者，不在网站公布。'
     },
     planned: { en: 'Planned', zh: '筹划中' },
     c1t: { en: 'Professional training', zh: '专业培训' },
     c1b: {
-      en: 'Fire needle technique training for TCM practitioners, acupuncturists and other eligible registered health professionals. ' + TBC_EN('curriculum, trainers, format'),
+      en: 'Hot needle technique training for Chinese medicine practitioners, acupuncturists and other eligible registered health professionals. ' + TBC_EN('curriculum, trainers, format'),
       zh: '面向中医师、针灸师及其他符合条件的注册卫生专业人员的火针技术培训。' + TBC_ZH('课程、讲师、形式')
     },
     c2t: { en: 'Academic exchange', zh: '学术交流' },
     c2b: {
-      en: 'Exchange activities on TCM and fire needle therapy with practitioners in Australia and overseas.',
-      zh: '与澳洲及海外同行开展中医与火针学术交流活动。'
+      en: 'Talks and case-based discussion on Chinese medicine and hot needle therapy among practitioners.',
+      zh: '从业者之间围绕中医与火针开展讲座与讨论。'
     },
-    c3t: { en: 'Certificates of completion', zh: '结业证书' },
+    c3t: { en: 'Certificates and CPD', zh: '证明与 CPD' },
     c3b: {
-      en: 'Participants who complete an HNCMA course will receive a certificate of completion. Recognition for CPD: ' + TBC_EN(),
-      zh: '完成学会课程者将获颁结业证书。可否计入 CPD 学分：' + TBC_ZH()
+      en: 'Participants receive a certificate of attendance stating the hours attended. HNCMA is not an accredited CPD provider. Registered practitioners may choose to record the activity in their own CPD, in line with their National Board\'s requirements.',
+      zh: '参加者将获得注明学时的参加证明。本协会不是认证的 CPD 机构；注册从业者可按所属国家委员会（如澳大利亚中医委员会）的要求，自行记录、申报个人 CPD。'
     },
-    eventsTitle: { en: 'Upcoming courses and events', zh: '近期课程与活动' },
-    noEvents: { en: 'No courses or events have been scheduled yet.', zh: '目前尚无已排定的课程或活动。' },
+    eventsTitle: { en: 'Next course', zh: '近期课程' },
+    noEvents: { en: 'Course details are announced to people who have registered their interest.', zh: '课程信息将另行通知已登记意向的人士。' },
     interestBtn: { en: 'Register interest (draft)', zh: '登记意向（草稿）' },
 
     memTitle: { en: 'Membership', zh: '会员' },
     memLede: {
-      en: 'Membership is intended for registered health professionals with an interest in fire needle therapy. Categories, fees and the application process are still being finalised.',
-      zh: '会员面向对火针疗法有兴趣的注册卫生专业人员。会员类别、会费及申请流程仍在确定中。'
+      en: 'HNCMA is a small association of practitioners who want to learn and practise hot needle therapy together. Membership is mainly about training and exchange with peers.',
+      zh: 'HNCMA 是一群希望共同学习和运用火针的从业者组成的小型协会。入会主要是为了参加培训、与同行交流。'
     },
     eligTitle: { en: 'Who may be eligible', zh: '拟定入会资格' },
     elig1: { en: 'TCM practitioners and acupuncturists registered in their country or region', zh: '在所在国家或地区注册的中医师、针灸师' },
@@ -158,21 +160,21 @@
       en: TBC_EN('criteria, verification of registration, scope of practice'),
       zh: TBC_ZH('具体条件、注册核验方式、执业范围')
     },
-    benTitle: { en: 'Proposed member benefits', zh: '拟定会员权益' },
-    ben1: { en: 'Discounted fees for HNCMA training (proposed 20%)', zh: '学会培训费用优惠（拟八折）' },
+    benTitle: { en: 'What members take part in', zh: '会员参与什么' },
+    ben1: { en: 'Priority notice of HNCMA training', zh: '优先获得协会培训通知' },
     ben2: { en: 'Invitations to academic exchange activities', zh: '受邀参加学术交流活动' },
-    ben3: { en: 'Certificates of completion for HNCMA courses', zh: '学会课程结业证书' },
+    ben3: { en: 'Certificates of attendance for HNCMA activities', zh: '协会活动参加证明' },
     ben4: { en: 'Professional discussion of complex cases with experienced practitioners', zh: '与资深从业者开展疑难病例专业讨论' },
     benNote: {
-      en: 'All benefits are proposals. ' + TBC_EN('format of case discussion and privacy safeguards'),
-      zh: '以上权益均为拟定。' + TBC_ZH('病例讨论形式及隐私保护安排')
+      en: 'Case discussions are held without identifying patient details. ' + TBC_EN('format'),
+      zh: '病例讨论不涉及可识别患者身份的信息。' + TBC_ZH('具体形式')
     },
-    feesTitle: { en: 'Fees and applications', zh: '会费与申请' },
+    feesTitle: { en: 'How to join', zh: '如何入会' },
     feesBody: {
-      en: 'Membership fees: ' + TBC_EN() + ' Online applications are not yet open.',
-      zh: '会费：' + TBC_ZH() + ' 网上申请尚未开放。'
+      en: 'Contact the association to ask about joining. Details are provided directly.',
+      zh: '有意入会请联系协会，具体安排另行告知。'
     },
-    applyBtn: { en: 'Apply for membership (draft)', zh: '申请入会（草稿）' },
+    applyBtn: { en: 'Contact us about joining', zh: '联系我们咨询入会' },
 
     contactTitle: { en: 'Contact us', zh: '联系我们' },
     contactLede: {
@@ -206,8 +208,8 @@
     },
 
     footAbout: {
-      en: 'Fire needle professional association, Melbourne. Full name and registration ' + TBC_EN(),
-      zh: '火针专业学会，墨尔本。全称及注册信息' + TBC_ZH()
+      en: 'Hot Needle Chinese Medicine Association Inc. Incorporated association, Victoria · Reg. No. A0128303C.',
+      zh: 'Hot Needle Chinese Medicine Association Inc.（火针协会）。维多利亚州注册社团法人 · 注册号 A0128303C。'
     },
     footDisclaimer: {
       en: 'Information on this website is general in nature and is not a substitute for advice from a registered health practitioner.',
@@ -225,12 +227,12 @@
   };
 
   const titles = {
-    home: { en: 'HNCMA — Fire needle professional association (draft)', zh: 'HNCMA 火针专业学会（草稿）' }
+    home: { en: 'HNCMA — Hot Needle Chinese Medicine Association (draft)', zh: 'HNCMA 火针协会（草稿）' }
   };
 
   let mode = 'en';
   try { mode = localStorage.getItem('hncma-lang') || 'en'; } catch (e) { /* ignore */ }
-  if (!['en', 'zh', 'both'].includes(mode)) mode = 'en';
+  if (!['en', 'zh'].includes(mode)) mode = 'en';
 
   function render(el) {
     const entry = T[el.dataset.i18n];
