@@ -271,3 +271,7 @@ body.mode-zh .eyebrow { letter-spacing: .3em; }
 @media (max-width: 380px) {
   .tiles { grid-template-columns: 1fr; }
 }
+
+/* v3: joining requirements inside centred box */
+.empty .ticks { max-width: 560px; margin: 0 auto 12px; text-align: left; }
+.empty h3 { margin: 8px 0 4px; }

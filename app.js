@@ -8,8 +8,8 @@
 
   const T = {
     draftBar: {
-      en: 'Draft for review (version 2) — not a published website. Items marked <span class="tbc">TBC</span> are awaiting confirmation.',
-      zh: '审阅草稿（第二版）——网站尚未发布。标有 <span class="tbc">待确认</span> 的内容需进一步确认。'
+      en: 'Draft for review (version 3) — not a published website. Items marked <span class="tbc">TBC</span> are awaiting confirmation.',
+      zh: '审阅草稿（第三版）——网站尚未发布。标有 <span class="tbc">待确认</span> 的内容需进一步确认。'
     },
     brandSub: { en: 'Hot Needle Chinese Medicine Association', zh: '火针协会 · 墨尔本' },
     menu: { en: 'Menu', zh: '菜单' },
@@ -68,7 +68,7 @@
     fStatusK: { en: 'Legal status', zh: '法律性质' },
     fStatusV: { en: 'Incorporated association under the <i>Associations Incorporation Reform Act 2012</i> (Vic). Registration No. A0128303C, incorporated 6 January 2026.', zh: '依据维多利亚州《2012 年社团法人改革法》注册的社团法人，注册号 A0128303C，2026 年 1 月 6 日成立。' },
     fPeopleK: { en: 'Leadership', zh: '负责人 / 理事会' },
-    fPeopleV: { en: 'President · Vice-President · Secretary and Treasurer ' + TBC_EN('names and registrations'), zh: '会长 · 副会长 · 秘书兼财务 ' + TBC_ZH('姓名及注册资格') },
+    fPeopleV: { en: 'Office bearers will be announced once confirmed. ' + TBC_EN('names and roles'), zh: '理事会成员确定后公布。' + TBC_ZH('姓名及职务') },
     fWhoK: { en: 'For', zh: '面向' },
     fWhoV: {
       en: 'Chinese medicine practitioners, acupuncturists and other registered health professionals',
@@ -218,6 +218,35 @@
     footPrivacy: { en: 'Privacy policy: ' + TBC_EN(), zh: '隐私政策：' + TBC_ZH() },
     footCopy: { en: '© 2026 HNCMA · Draft for internal review — not published', zh: '© 2026 HNCMA · 内部审阅草稿，尚未发布' },
 
+    noticeTitle: { en: 'Notices', zh: '公告栏' },
+    noticeIntro: {
+      en: 'Training dates, association news and changes to contact details will be posted here.',
+      zh: '培训通知、协会消息及联系方式变更将在此发布。'
+    },
+    n1d: { en: '6 January 2026', zh: '2026 年 1 月 6 日' },
+    n1t: {
+      en: 'HNCMA was incorporated in Victoria under the <i>Associations Incorporation Reform Act 2012</i> (Reg. No. A0128303C).',
+      zh: 'HNCMA 依据维州《2012 年社团法人改革法》注册成立（注册号 A0128303C）。'
+    },
+    n2d: { en: 'Coming soon', zh: '即将公布' },
+    n2t: {
+      en: 'Contact details and the first training session will be announced here.',
+      zh: '联系方式及首期培训信息将在此公布。'
+    },
+    linksTitle: { en: 'Useful links', zh: '相关链接' },
+    link1: {
+      en: '<a href="https://www.chinesemedicineboard.gov.au/" target="_blank" rel="noopener">Chinese Medicine Board of Australia</a>',
+      zh: '<a href="https://www.chinesemedicineboard.gov.au/" target="_blank" rel="noopener">澳大利亚中医委员会（Chinese Medicine Board of Australia）</a>'
+    },
+    link2: {
+      en: '<a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener">Ahpra register of practitioners</a> — check a practitioner\'s registration',
+      zh: '<a href="https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx" target="_blank" rel="noopener">Ahpra 注册从业者查询</a>——核实从业者注册资格'
+    },
+    docsTitle: { en: 'What you will need', zh: '入会需提供' },
+    doc1: { en: 'Proof of current registration as a health practitioner (for example, your Ahpra registration)', zh: '有效的卫生从业者注册证明（如 Ahpra 注册）' },
+    doc2: { en: 'Copies of your qualifications', zh: '学历或资格证书复印件' },
+    doc3: { en: 'A completed membership application form', zh: '填写完整的入会申请表' },
+    docsNote: { en: 'Proposed requirements. ' + TBC_EN(), zh: '以上为拟定要求。' + TBC_ZH() },
     modalTitle: { en: 'Draft feature', zh: '草稿功能' },
     modalBody: {
       en: 'Online registration is not available yet. This button is a placeholder: no details have been collected, and no registration or payment has been made.',
